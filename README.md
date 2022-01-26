@@ -67,6 +67,26 @@ Strona kodowana zgodnie ze standardem `UTF-8` z użyciem semantycznych znacznik�
 > https://validator.w3.org/nu/?doc=https://prettyniceguy14.github.io/projekt_html_css/register.html
 
 
+## Prawa autorskie do zdjęć:
+Zdjęcia pochodzą ze strony https://unsplash.com/
+
+Na podstawie licencji: https://unsplash.com/license
+
+- All photos can be downloaded and used for free
+
+- Commercial and non-commercial purposes
+
+- No permission needed (though attribution is appreciated!)
+
+Linki do zdjęć:
+> **bg.jpg** - https://unsplash.com/photos/mP7aPSUm7aE
+
+> **cactus.jpg** - https://unsplash.com/photos/UzPbvwqvKNE
+
+> **camera.jpg** - https://unsplash.com/photos/rBY_CjoyItM
+
+> **headphones.jpg** - https://unsplash.com/photos/cZWZjymwI9o
+
 ## UI / Wygląd Desktop
 
 ![prettyniceguy14 github io_projekt_html_css_index html](https://user-images.githubusercontent.com/84191672/149358525-92fe2913-1744-4d15-888d-43bd8eedf5b2.png)
