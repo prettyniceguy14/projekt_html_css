@@ -236,11 +236,39 @@ main {
 
 main section {
   width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
 
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
   margin-top: 30px;
+  gap: 30px;
+  justify-content: center;
+
+  padding-bottom: 50px;
+}
+
+.section-col:nth-child(6n) {
+  margin-left: calc(18% + 30px);
+}
+
+@media screen and (max-width: 1436px) {
+  .section-col:nth-child(6n) {
+    margin-left: 0;
+  }
+  .section-col:nth-child(5n) {
+    margin-left: calc(18% + 30px);
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .section-col:nth-child(6n) {
+    margin-left: 0;
+  }
+  .section-col:nth-child(5n) {
+    margin-left: 0;
+  }
 }
 
 .section-col {
@@ -253,7 +281,6 @@ main section {
 }
 
 .section-col-header {
-  padding-left: 7%;
   font-size: 1.8rem;
   display: flex;
   flex-direction: column;
@@ -264,7 +291,8 @@ main section {
   user-select: none;
 }
 
-.section-col-header button, footer button {
+.section-col-header button,
+footer button {
   background: black;
   color: white;
   border: none;
@@ -323,13 +351,13 @@ footer {
   display: flex;
 }
 
-footer h2{
+footer h2 {
   color: #000;
   font-size: 2em;
   margin-bottom: 15px;
 }
 
-footer h4{
+footer h4 {
   color: #000;
   font-size: 0.72em;
   padding-bottom: 20px;
@@ -337,13 +365,13 @@ footer h4{
   align-self: baseline;
 }
 
-footer p{
+footer p {
   color: #969696;
   font-size: 0.5em;
   padding-bottom: 25px;
 }
 
-.footer-col{
+.footer-col {
   width: 50%;
   display: flex;
   justify-content: center;
@@ -351,26 +379,26 @@ footer p{
   align-items: center;
 }
 
-.footer-col:first-child{
+.footer-col:first-child {
   width: 40%;
 }
 
-.footer-col-limit{
+.footer-col-limit {
   width: 25%;
 }
 
-.footer-col-half{
+.footer-col-half {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
-footer li{
+footer li {
   color: #969696;
   font-size: 0.8em;
 }
 
-footer a{
+footer a {
   cursor: pointer;
 }
 
@@ -410,8 +438,6 @@ footer a{
   padding-bottom: 20px;
   color: #d4d4d4;
 }
-
-
 
 @media screen and (max-width: 1100px) {
   header {
@@ -469,22 +495,22 @@ footer a{
     object-fit: contain;
   }
 
-  footer{
+  footer {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     height: 780px;
   }
 
-  .footer-col h2{
+  .footer-col h2 {
     padding-top: 20px;
   }
 
-  .footer-col-limit{
+  .footer-col-limit {
     width: 90%;
   }
 
-  .footer-col-half{
+  .footer-col-half {
     display: flex;
     flex-direction: column;
     row-gap: 45px;
